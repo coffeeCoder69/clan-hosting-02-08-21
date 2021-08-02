@@ -48,3 +48,27 @@ b {
     font-weight: 700; 
     text-align: center;
 }
+
+/* MOBILE */
+
+.M-navbar {
+  width: 90%;
+  margin: auto;
+}
+
+@media (min-width: 769px) {
+  div.mobile {
+    display: none;
+  }
+  div.laptop {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  div.mobile {
+    display: block;
+  }
+  div.laptop {
+    display: none;
+  }
+}
