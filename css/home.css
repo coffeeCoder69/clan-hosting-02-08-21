@@ -14,6 +14,10 @@ a:active {
   text-decoration: none;
 }
 
+a:focus {
+  outline: none;
+}
+
 body {
   font-family: Poppins;
 }
@@ -77,6 +81,7 @@ body {
 .cta-button:focus {
   color: #ffffff;
   background-color: #3c8f7c;
+  outline: none;
 }
 
 .hero-phone {
